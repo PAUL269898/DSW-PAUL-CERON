@@ -10,9 +10,9 @@ h1,
 h2 {
     color: white;
     text-align: center;
-    padding: 3rem;
+    padding: 2rem;
     font-family: 'Open sans';
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 h3 {
@@ -27,9 +27,9 @@ h3 {
 }
 
 .navegacion {
-    width: 90rem;
-    margin: 3rem auto;
-    background-color: white;
+    width: 100%;
+    margin-block-end: 5rem;
+     background-color: white;
     text-align: center;
 }
 
@@ -89,14 +89,12 @@ h3 {
 }
 
 .footer {
+    width: 100%;
+    margin-top: 2rem;
+    margin-block-end: 2rem;
     background-color: white;
-    margin-top: 3rem;
-    margin-block-end: 3rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    max-width: auto;
-    font-family: 'Open sans';
-    font-size: 2rem;
+        font-family: 'Open sans';
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -142,12 +140,12 @@ h3 {
 }
 
 .refe {
-    color: white;
+    color: blue;
 }
 
 .info {
     margin-top: 1rem;
-    margin-block-end: 2rem;
+    margin-block-end: 1rem;
 }
 
 .Texto {
@@ -170,4 +168,14 @@ h3 {
     background-color: white;
     width: 1200px;
     height: 818px;
+}
+
+.time{
+    margin-left: 38%;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    
 }
